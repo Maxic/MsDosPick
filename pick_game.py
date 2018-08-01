@@ -29,7 +29,7 @@ def main():
     file_path = os.path.join(path_dir,games_done_file)
     with open(file_path, 'a+') as file:
         file.write(str(chosen_game))
-    print("Added new title to" + games_done_file)
+    print("Added new title to " + games_done_file)
 
 
 if __name__ == "__main__":

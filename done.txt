@@ -1,2 +1,3 @@
 {'title': 'Shape-Shifter Adventure!'},
 {'title': 'Stunt Island'},
+{'title': 'Mind Prober'},
