@@ -6,3 +6,11 @@
 {'title': 'Miner 2049er', 'identifier': 'msdos_Miner_2049er_1983'},
 {'title': 'Pyramid Power', 'identifier': 'msdos_Pyramid_Power_1986'},
 
+{'title': 'Project Neptune'},
+{'title': 'Lettrix'},
+{'title': 'Willy The Worm'},
+
+{'title': 'URI Quest, Chapter One: The Freshman Encounter [v0.173]'},
+{'title': 'Graeme Souness Soccer Manager'},
+{'title': 'Webster - The Word Game'},
+
