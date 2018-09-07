@@ -14,3 +14,7 @@
 {'title': 'Graeme Souness Soccer Manager'},
 {'title': 'Webster - The Word Game'},
 
+{'title': 'Silicon Dreams'},
+{'title': 'Jordan vs Bird - One on One'},
+{'title': 'Spy Master'},
+
