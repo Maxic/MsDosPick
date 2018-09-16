@@ -18,3 +18,7 @@
 {'title': 'Jordan vs Bird - One on One'},
 {'title': 'Spy Master'},
 
+{'title': 'Lords of Doom'},
+{'title': 'Oxyd'},
+{'title': "Timothy Leary's Mind Mirror"},
+
