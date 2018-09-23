@@ -22,3 +22,7 @@
 {'title': 'Oxyd'},
 {'title': "Timothy Leary's Mind Mirror"},
 
+{'title': 'Kret', 'identifier': 'msdos_Kret_1991'},
+{'title': '4th & Inches', 'identifier': 'msdos_4th_and_Inches_1988'},
+{'title': 'Adventures in Melgratta', 'identifier': 'game-maker_adventures-in-melgratta'},
+
