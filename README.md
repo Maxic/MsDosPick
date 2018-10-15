@@ -6,9 +6,8 @@ https://archive.org/details/softwarelibrary_msdos_games
 
 - Install all requirements with pip
 - Run ia configure and login with your internet archive account
-    - If you down have an account, create one here: TODO LINK
-- Run pick_game
+    - If you don't have an account, create one here: https://archive.org/account/login.createaccount.php
+- Run `python pick_game.py`
 
-# Notes:
-
-IA is not required, if you do not have it configured or don't have internet, the script uses the included JSON file (msdoslib.json) to pick a title.
+# Notes
+  A full list of the games in de MS-DOS Games Software Library collection is also included in the JSON file `msdoslib.json`
