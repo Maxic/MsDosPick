@@ -14,6 +14,7 @@ def main():
             del game['identifier']
             games_done_data['games'].append(game)
         file.seek(0)
+        file.truncate()
         file.write(json.dumps(games_done_data))
 
 
@@ -34,6 +35,7 @@ def pick_game(game_amount, game_done_data):
             while is_duplicate(game_done_data, new_game):
                 new_game = random.choice(titles)
             chosen_games.append(new_game)
+            print("Added game: " + new_game['title'] + " to the file")
     except Exception as e:
         print("Could not get most recent list of titles.")
         print(e)
