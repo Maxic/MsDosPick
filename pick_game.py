@@ -29,7 +29,12 @@ def pick_game(game_amount, game_done_data):
     chosen_games = []
 
     try:
-        titles = list(search_items("collection:(softwarelibrary_msdos_games)", ["title", "identifier"]))
+        # get all (filtered) msdos titles from archive.org
+        titles = list(search_items("collection:(softwarelibrary_msdos_games) AND"
+                                   " -identifier:(agi_*) AND -identifier:(agt_*) AND"
+                                   " -identifier:(sci_*) AND -identifier:(gamemaker_*) AND"
+                                   " -identifier:(game-maker_*)",
+                                   ["title", "identifier"]))
         for _ in range(game_amount):
             new_game = random.choice(titles)
             while is_duplicate(game_done_data, new_game):
@@ -37,8 +42,7 @@ def pick_game(game_amount, game_done_data):
             chosen_games.append(new_game)
             print("Added game: " + new_game['title'] + " to the file")
     except Exception as e:
-        print("Could not get most recent list of titles.")
-        print(e)
+        print("Something went wrong: " + e)
     return chosen_games
 
 
